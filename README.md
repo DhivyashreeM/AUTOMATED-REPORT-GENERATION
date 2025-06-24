@@ -21,7 +21,7 @@ This task involves creating a Python-based automated report generation system th
 2. [TOOLS AND LIBRARIES USED](#tools-and-libraries-used)
 3. [EDITOR AND PLATFORM COMPATIBILITY](#editor-and-platform-compatibility)
 4. [FUNCTIONALITY AND WORKFLOW](#functionality-and-workflow)
-5. [APPLICATION AND USE CASES](#applications-and-use-cases)
+5. [APPLICATIONS AND USE CASES](#applications-and-use-cases)
 6. [ADVANTAGES OF THIS APPROACH](#advantages-of-this-approach)
 7. [OUTPUT](#output)
 8. [CONCLUSION](#conclusion)
@@ -80,7 +80,7 @@ Includes headers and footers with page numbers for professionalism.
 **5. Cleanup**
 Removes the temporary plot image after embedding it in the PDF.
 
-### Applications and Use Cases
+### APPLICATIONS AND USE CASES
 This automated report generator is highly versatile and can be applied in multiple domains:
 
 **1. Business Intelligence & Sales Reporting**
@@ -103,7 +103,7 @@ This automated report generator is highly versatile and can be applied in multip
 - Automate reports from sensor logs (temperature, pressure, motion data) with statistical trends.
 - Provide maintenance reports for industrial equipment monitoring.
 
-### Advantages of This Approach
+### ADVANTAGES OF THIS APPROACH
 - Time-Saving – Eliminates manual data summarization and formatting.
 
 - Reproducibility – Ensures consistent report structure across multiple runs.
