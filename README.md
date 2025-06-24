@@ -119,7 +119,7 @@ This automated report generator is highly versatile and can be applied in multip
 
 ![Image 3](https://github.com/user-attachments/assets/82b04fe8-c960-4efe-8fab-2b1da1b8e972)
 
-### Conclusion
+### CONCLUSION
 This automated PDF report generator is a powerful tool for transforming raw CSV data into structured, visually appealing reports. By combining data analysis, visualization, and PDF generation, it serves as an end-to-end solution for professionals across industries who need quick, reliable reporting. Future enhancements could include:
 
 - Support for multiple chart types (line graphs, pie charts).
