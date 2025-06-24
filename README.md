@@ -12,11 +12,11 @@
 
 ***MENTOR*:** NEELA SANTHOSH
 
-## DESCRIPTION
-### INTRODUCTION
+## DESCRIPTION  
+### INTRODUCTION  
 This task involves creating a Python-based automated report generation system that processes CSV data, performs statistical analysis, visualizes key metrics, and compiles the results into a professional PDF report. The solution leverages several Python libraries to achieve this functionality, making it a robust tool for data analysts, business professionals, and researchers who need to generate structured reports from raw data efficiently.
 
-### TABLE OF CONTENTS
+### TABLE OF CONTENTS  
 1. [INTRODUCTION](#introduction)
 2. [TOOLS AND LIBRARIES USED](#tools-and-libraries-used)
 3. [EDITOR AND PLATFORM COMPATIBILITY](#editor-and-platform-compatibility)
@@ -26,8 +26,8 @@ This task involves creating a Python-based automated report generation system th
 7. [OUTPUT](#output)
 8. [CONCLUSION](#conclusion)
 
-### TOOLS AND LIBRARIES USED
-The implementation utilizes the following Python libraries:
+### TOOLS AND LIBRARIES USED  
+The implementation utilizes the following Python libraries:  
 
 **1. csv** → A built-in Python module for reading and writing CSV files. It efficiently parses structured data into a list of rows for processing.
 
@@ -41,7 +41,7 @@ The implementation utilizes the following Python libraries:
 
 **6. os** → Used for file system operations, such as checking for existing files and cleaning up temporary plot images after report generation.
 
-### EDITOR AND PLATFORM COMPATIBILITY
+### EDITOR AND PLATFORM COMPATIBILITY  
 This script is designed to be platform-independent and can be executed in various development environments, including:
 
 - **Jupyter Notebook / JupyterLab** → Ideal for interactive testing and visualization before final report generation.
@@ -52,23 +52,22 @@ This script is designed to be platform-independent and can be executed in variou
 
 - **Command Line / Terminal** → The script can be executed directly via python report_generator.py if all dependencies are installed.
 
-### FUNCTIONALITY AND WORKFLOW
+### FUNCTIONALITY AND WORKFLOW  
 The script follows a structured workflow:
 
-**1. Data Ingestion**
+**1. Data Ingestion**  
 - Reads a CSV file containing structured data (e.g., sales records, survey responses, or experimental data).
 - Converts numeric values into floats for statistical processing.
 
-**2. Statistical Analysis**
+**2. Statistical Analysis**  
 - Computes key metrics (mean, median, min, max, standard deviation) for all numeric columns.
 - Skips non-numeric fields to avoid calculation errors.
 
-**3. Data Visualization**
+**3. Data Visualization**  
 - Generates a bar chart using matplotlib to visualize mean values across different metrics.
 - Temporarily saves the plot as a PNG file for embedding in the PDF.
 
-**4. PDF Report Generation**
-
+**4. PDF Report Generation**  
 Uses FPDF to create a structured document with:
 - A title page with the report name and date.
 - A summary section explaining the dataset.
@@ -77,33 +76,33 @@ Uses FPDF to create a structured document with:
 - A sample data table displaying the first 10 rows of the dataset.
 Includes headers and footers with page numbers for professionalism.
 
-**5. Cleanup**
+**5. Cleanup**  
 Removes the temporary plot image after embedding it in the PDF.
 
-### APPLICATIONS AND USE CASES
+### APPLICATIONS AND USE CASES  
 This automated report generator is highly versatile and can be applied in multiple domains:
 
-**1. Business Intelligence & Sales Reporting**
+**1. Business Intelligence & Sales Reporting**  
 - Generate weekly/monthly sales reports summarizing revenue, units sold, and product performance.
 - Automate KPI dashboards for stakeholders without manual Excel processing.
 
-**2. Scientific Research & Data Analysis**
+**2. Scientific Research & Data Analysis**  
 - Process experimental data (e.g., lab results, survey responses) and generate statistical summaries.
 - Replace manual reporting in academic research with automated PDF outputs.
 
-**3. Financial Analytics**
+**3. Financial Analytics**  
 - Analyze stock market trends, portfolio performance, or expense tracking data.
 - Provide audit-ready reports with structured tables and visualizations.
 
-**4. Healthcare & Patient Data Management**
+**4. Healthcare & Patient Data Management**  
 - Summarize patient records, treatment outcomes, or clinical trial data.
 - Generate compliance reports for regulatory submissions.
 
-**5. IoT & Sensor Data Processing**
+**5. IoT & Sensor Data Processing**  
 - Automate reports from sensor logs (temperature, pressure, motion data) with statistical trends.
 - Provide maintenance reports for industrial equipment monitoring.
 
-### ADVANTAGES OF THIS APPROACH
+### ADVANTAGES OF THIS APPROACH  
 - Time-Saving – Eliminates manual data summarization and formatting.
 
 - Reproducibility – Ensures consistent report structure across multiple runs.
@@ -112,14 +111,14 @@ This automated report generator is highly versatile and can be applied in multip
 
 - Scalable – Can process large datasets efficiently (limited only by system memory).
 
-### OUTPUT
+### OUTPUT  
 ![Image 1](https://github.com/user-attachments/assets/f29417b4-8490-4581-a948-d5ade4ea8351)
 
 ![Image 2](https://github.com/user-attachments/assets/a84ea550-4596-415d-99d3-8a496b28e7e1)
 
 ![Image 3](https://github.com/user-attachments/assets/82b04fe8-c960-4efe-8fab-2b1da1b8e972)
 
-### CONCLUSION
+### CONCLUSION  
 This automated PDF report generator is a powerful tool for transforming raw CSV data into structured, visually appealing reports. By combining data analysis, visualization, and PDF generation, it serves as an end-to-end solution for professionals across industries who need quick, reliable reporting. Future enhancements could include:
 
 - Support for multiple chart types (line graphs, pie charts).
